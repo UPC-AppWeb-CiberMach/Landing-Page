@@ -27,24 +27,25 @@
                     MoviTech
                 </a>
 
-                <!--------------------------------  BUTTON LANGUAJE ------------------------------------------------->
+                <!--------------------------------  BUTTON LANGUAJE PARA PANTALLAS PEQUEÑAS ------------------------------------------------->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <img src="public/assets/img/Idiomas.png" alt="Idiomas" class="navbar-toggler-icon" style="width: 32px; height: 32px;">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="nav-item dropdown" id="switcher">
-                    <button class="btn dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                <!--------------------------------  BUTTON LANGUAJE PARA PANTALLAS GRANDES ------------------------------------------------->
+                <div class="nav-item dropdown d-none d-lg-block">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="public/assets/img/Idiomas.png" alt="Idiomas" style="width: 32px; height: 32px;">
                     </button>
-                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item d-flex align-items-center translate" id="es" href="#">
+                            <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="es">
                                 <img src="public/assets/img/ESPANA.png" alt="Español" style="width: 24px; height: 24px; margin-right: 8px;">
                                 <span class="language lang" key="language2" style="color: black">Español</span>
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item d-flex align-items-center translate" id="en" href="#">
+                            <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="en">
                                 <img src="public/assets/img/EEUU.png" alt="English" style="width: 24px; height: 24px; margin-right: 8px;">
                                 <span class="language lang" key="language1" style="color: black">English</span>
                             </a>
@@ -55,17 +56,41 @@
                 <!--------------------------------  SECCIONES DE BOTONES ------------------------------------------------->
                 <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                     <ul class="navbar-nav text-center">
-                        <li><a href="#hero" class="nav-item nav-link active lang"   key="navbar-item1">Home</a> </li>
-                        <li> <a href="#about-us" class="nav-item nav-link lang"     key="navbar-item2">About Us</a> </li>
-                        <li> <a href="#services" class="nav-item nav-link lang"     key="navbar-item4">Services</a>  </li>
-                        <li> <a href="#pricing" class="nav-item nav-link lang"      key="navbar-item5">Pricing</a>    </li>
-                        <li> <a href="#about-team" class="nav-item nav-link lang"   key="navbar-item3">Team</a>    </li>
-                        <li><a href="#"><button class="btn btn-primary lang"        key="cardButtonPricing">Get Started</button></a></li>
+                        <li><a href="#hero" class="nav-item nav-link active lang" key="navbar-item1">Home</a> </li>
+                        <li><a href="#about-us" class="nav-item nav-link lang" key="navbar-item2">About Us</a> </li>
+                        <li><a href="#services" class="nav-item nav-link lang" key="navbar-item4">Services</a>  </li>
+                        <li><a href="#pricing" class="nav-item nav-link lang" key="navbar-item5">Pricing</a>    </li>
+                        <li><a href="#about-team" class="nav-item nav-link lang" key="navbar-item3">Team</a>    </li>
+                        <li><a href="#"><button class="btn btn-primary lang" key="cardButtonPricing">Get Started</button></a></li>
+
+                        <!-- Botón de idioma para pantallas pequeñas -->
+                        <li class="d-lg-none mt-2">
+                            <div class="nav-item dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="public/assets/img/Idiomas.png" alt="Idiomas" style="width: 32px; height: 32px;">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="es">
+                                            <img src="public/assets/img/ESPANA.png" alt="Español" style="width: 24px; height: 24px; margin-right: 8px;">
+                                            <span class="language lang" key="language2" style="color: black">Español</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="en">
+                                            <img src="public/assets/img/EEUU.png" alt="English" style="width: 24px; height: 24px; margin-right: 8px;">
+                                            <span class="language lang" key="language1" style="color: black">English</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <main>
         <!--------------------------------  HOME ------------------------------------------------->
         <section id="hero" class="d-flex align-items-center vh-100" style="background-image: url('public/assets/img/Fondo-imagen.png'); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">

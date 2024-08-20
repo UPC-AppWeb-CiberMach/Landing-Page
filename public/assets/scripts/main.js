@@ -12,10 +12,11 @@ $.getJSON('public/assets/scripts/lang.json', function(json) {
             event.preventDefault(); // Prevenir la acción por defecto del enlace
 
             // Obtener el idioma seleccionado
-            let lang = $(this).attr('id');
-            let currentLang = $('#languageDropdown').attr('data-current-lang');
+            let lang = $(this).attr('data-lang');
 
-            // Verificar si el idioma ya está seleccionado
+            // Verificar si el idioma ya está seleccionado en cualquier dropdown
+            let currentLang = $('[data-current-lang]').attr('data-current-lang');
+
             if (lang === currentLang) {
                 return; // Si el idioma ya está seleccionado, no hacer nada
             }
@@ -32,8 +33,8 @@ $.getJSON('public/assets/scripts/lang.json', function(json) {
                 }
             });
 
-            // Actualizar el idioma actual en el data attribute
-            $('#languageDropdown').attr('data-current-lang', lang);
+            // Actualizar el idioma actual en todos los dropdowns
+            $('[data-current-lang]').attr('data-current-lang', lang);
         });
     });
 });
