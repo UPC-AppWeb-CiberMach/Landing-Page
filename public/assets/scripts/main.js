@@ -3,7 +3,7 @@ function AnimatedToggle() {
     toggle.classList.toggle("active");
 }
 
-$.getJSON('public/assets/scripts/lang.json', function(json) {
+$.getJSON('public/assets/scripts/Idioma.json', function(json) {
     $(function() {
         $('.translate').click(function(event) {
             event.preventDefault();

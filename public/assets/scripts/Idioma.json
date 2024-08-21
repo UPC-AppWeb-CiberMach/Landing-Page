@@ -20,9 +20,9 @@
     "titleAboutUs": "About Us",
     "subTitleAboutUs": "We are the perfect team you need for your urban transportation.",
     "bodyAboutUs": "We are a Startup whose mission is to optimize transportation in our city of Lima through ecological transportation. We are committed to the environment. We offer our users:",
-    "feat1AboutUs": "- Efficiency",
-    "feat2AboutUs": "- Flexibility",
-    "feat3AboutUs": "- Technical support",
+    "feat1AboutUs": "Efficiency",
+    "feat2AboutUs": "Flexibility",
+    "feat3AboutUs": "Technical support",
     "feat4AboutUs": "Maintenance Management",
     "feat5AboutUs": "Communication",
     "titleAboutTeam": "About Team",
@@ -34,9 +34,9 @@
     "titleServices":"SERVICES",
     "subTitleServices": "Our Services",
     "bodyServices": "Here are some of the services offered in the app.",
-    "Service01": "Find your right scooter",
-    "Service02": "Reserve at the best price",
-    "Service03": "Enjoy the trip",
+    "Service1": "Find your right scooter",
+    "Service2": "Reserve at the best price",
+    "Service3": "Enjoy the trip",
     "routeTitleServices": "ROUTES",
     "routeSubtitleServices":"ROUTE ORGANIZATION",
     "routeBodyServices": "View your routes and manage your trips in the best way",
@@ -86,7 +86,8 @@
     "section3SubTitle1Footer": "Address: , Lima 15023",
     "section3SubTitle2Footer": "Email: MoviTech@gmail.com",
     "section3SubTitle3Footer": "Phone: 926 335 924",
-    "Terms": "© 2024 copyright all rights reserved | Designed by MoviTech"
+    "Terms": "© 2024 copyright all rights reserved | Designed by MoviTech",
+    "student-desc": "We are a group of students studying Software Engineering at the Peruvian University of Applied Sciences. We have come together to form a development team working on a web application. Each of us brings unique skills and experience in different areas of software development."
   },
   "es": {
     "language1": "Inglés",
@@ -123,9 +124,9 @@
     "titleServices":"Servicios",
     "subTitleServices": "Nuestros Servicios",
     "bodyServices": "Estos son algunos de los servicios que se ofrecen en la aplicación.",
-    "Service01": "Encuentra tu scooter adecuado",
-    "Service02": "Reserva al mejor precio",
-    "Service03": "Disfruta el viaje",
+    "Service1": "Encuentra tu scooter adecuado",
+    "Service2": "Reserva al mejor precio",
+    "Service3": "Disfruta el viaje",
     "routeTitleServices": "RUTAS",
     "routeSubtitleServices":"ORGANIZACIÓN DE RUTAS",
     "routeBodyServices": "Visualiza tus rutas y gestiona tus viajes de la mejor manera",
@@ -175,6 +176,7 @@
     "section3SubTitle1Footer": "Dirección: , Lima 15023",
     "section3SubTitle2Footer": "Correo: MoviTech@gmail.com",
     "section3SubTitle3Footer": "Teléfono: 926 335 924",
-    "Terms": "© 2024 copyright todos los derechos reservados | Diseñado por MoviTech"
+    "Terms": "© 2024 copyright todos los derechos reservados | Diseñado por MoviTech",
+    "student-desc": "Somos un grupo de estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Nos hemos unido para formar un equipo de desarrollo que trabaja en una aplicación web. Cada uno de nosotros aporta habilidades y experiencia únicas en diferentes áreas del desarrollo de software."
   }
 }
