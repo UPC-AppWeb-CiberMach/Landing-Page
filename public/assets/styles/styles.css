@@ -1,0 +1,460 @@
+/*General Fonts Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');/*colocamos el estilo de letra*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');/*colocamos los iconos*/
+/*General Common Styles*/
+:root {
+    --primary: rgb(88, 252, 209);
+    --secondary: rgb(12, 238, 178);
+    --dark: rgb(33, 37, 47);
+    --body: rgb(136, 136, 136);
+    --white: rgb(246, 240, 240);/*si se altera esta linea, se altera la linea 46*/
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font: normal 16px sans-serif;
+    color: #07dffd;
+    scroll-behavior: smooth !important;
+}
+
+ul, nav {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.9;
+}
+a:hover {
+    opacity: 1;
+}
+a.btn {
+    color: rgb(5, 248, 183);
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #f31d4d;
+    font-weight: 800;
+    text-align: center;
+}
+.card-effect {
+    box-shadow: var(--box-shadow);
+    background-color:#DFE5EF ;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+.card-effect:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+/*Section Common Styles*/
+section{
+    padding-left: 0rem;
+    margin-left: 0rem;
+}
+
+/*Header styles*/
+#header.navbar .container-fluid
+{
+    background-color: rgb(255, 0, 0);
+}
+#header #language1{
+    padding-right: 3rem;
+    color: #ffffff;
+}
+#header #language{
+    padding-left: 0.5rem;
+    color: #00e7ff;
+}
+#header #switcher{
+    display: flex;
+}
+#header .form-switch{
+    align-items: flex-end;
+}
+/*Aqui se estiliza el tamaño del logo*/
+#header .navbar .container-fluid .navbar-brand img{
+    width: 35px;
+    height: 31px;
+}
+
+
+/**/
+#header .navbar{
+    display: flex;
+    background-color: #589e4e;
+    border-bottom: 1px solid #589e4e;
+    position: sticky;
+    box-shadow: var(--box-shadow);
+}
+#header .navbar .navbar-brand {
+    font-size: 25px;
+    padding-left: 3rem;
+}
+#header .language{
+    padding-left: 7rem;
+}
+#header .form-switch{
+    display: flex;
+}
+
+#header .nav-item span{
+    padding-left:1px;
+    padding-right: 3rem;
+    color: #ffffff;
+}
+#header .container-button .toggle.active{
+    background: #ffffff;
+}
+#header .container-button .toggle.active .toggle-button{
+    Left:35px;
+}
+#header .container-button .toggle .text{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:3px;
+    Left:70px
+
+}
+#header .switch .container{
+}
+#header .form-check-input {
+    width: 50px;
+    height: 25px;
+    transition: 0.3s;
+}
+/* hero section */
+@media (max-width: 992px) {
+    .order-1 {
+        order: 2;
+    }
+    .order-2 {
+        order: 1;
+    }
+}
+
+
+
+
+#hero{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+#hero .container .card-group #card-center .card-body{
+    background-color: #DFE5EF;
+    color: rgb(27, 23, 23);
+}
+#hero .container .card-group .card-body{
+    background-color:#000000;
+    color: #f5f5f5;
+}
+#hero #home .row button{
+    background-color: #0D6EFD;
+}
+#hero span{
+    display: flex;
+    width: 200px;
+    height: 50px;
+}
+#hero .callTo-Buttons{
+    cursor: pointer;
+}
+
+
+/* Estilo para aumentar el tamaño de las imágenes en la sección del héroe */
+#hero .callTo-Buttons {
+    width: 200px; /* Ancho deseado */
+    height: 200px; /* Mantener la proporción de aspecto original */
+}
+
+
+#hero .callTo-Buttons-container {
+    margin-top: 20px; 
+}
+
+
+#hero .order-lg-2{
+    width: 50%;
+    height: 100%;
+
+
+
+}
+
+#hero .my-image {
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: -50px 20px 0px 0px;
+
+
+  
+}
+
+
+
+
+/*AboutUs styles*/
+#Us .embed-responsive {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#about-us {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+#Us .container .row ul li span{
+    padding-left: 1rem;
+}
+#Us .container .row ul li span::before{
+    padding-left: 1rem;
+}
+#Us .container .row ul li span::after{
+    padding-left: 1rem;
+}
+/*AboutTheTeam styles*/
+
+#about-team .container .row .team-member img{
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+    
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+#about-team .container .row .team-member .social-icons a{
+    width: 34px;
+    height: 34px;
+    background-color: var(--primary);
+    border-radius: 2px solid var(--primary);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 5px;
+    transition: all 0.4s ease;
+    border: 2px solid var(--primary);
+}
+
+.social-icons a:hover {
+    color: var(--primary);
+    background-color: transparent;
+    border-color: var(--primary);
+}
+#about-team .embed-responsive {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+}
+
+
+.team-member {
+    background-color: white;
+    width: 180px;
+    margin: 100px;
+
+}
+
+
+
+
+#Us iframe {
+
+}
+
+/*Services styles*/
+
+#services .row {
+    margin-top: 0rem;
+}
+#services .container{
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+#services h5{
+    text-transform: uppercase;
+    size-adjust: auto;
+    color: rgb(136, 136, 136);
+}
+#services p{
+    color: rgb(136, 136, 136);
+}
+
+#services li{
+    color: rgb(136, 136, 136);
+}
+#services .texts{
+    justify-content: flex-start;
+
+}
+#services .texts h4{
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    font-weight: 900;
+}
+#services .texts h1{
+    font-weight: 500;
+}
+#services .texts p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(234, 12, 12);
+    font-size: 16px;
+    padding: 3rem 1rem 3rem 1rem;
+    max-width: 330px;
+    text-transform: uppercase;
+}
+#services span{
+    display: flex;
+    width: 200px;
+    height: 50px;
+}
+#services .texts .callTo-Buttons{
+    height: 100%;
+    width: 100%;
+}
+#services .image-app{
+    justify-content: flex-end;
+}
+#services .routes{
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    background-color: #DFE5EF;
+}
+#services .maintain{
+    background-color: #DFE5EF;
+}
+#services .image-left{
+    margin: 2rem;
+}
+#services .container-texts{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    height:400px;
+}
+#services .container-texts h5{
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+#services .container-texts h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+#services .container-texts p{
+    font-size: 20px;
+}
+#services ul{
+    padding-top: 1rem;
+    list-style: none;
+}
+#services li i{
+    color: #757575;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+#services .calls .container .container-texts{
+    width: 500px;
+}
+#services .calls .container .image-calls img{
+    padding: 1rem;
+    width: 300px;
+    height: auto;
+
+}
+
+/*Pricing styles*/
+
+
+#pricing .container{
+    margin-top: 1rem;
+}
+
+#pricing i {
+    font-size: 20px;
+    color: rgb(33, 37, 47);
+}
+
+#pricing ul li {
+    margin-top: 0px;
+}
+#pricing hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+}
+
+/*Contact Styles*/
+/*TODO: Implement contact styles*/
+#contact-Us .container{
+    padding-top: 5rem;
+}
+#contact-Us .container form .col-md-10 button{
+    height: 50px;
+    border-color: rgb(36, 41, 51);
+    color: rgb(246, 240, 240);
+    background-color: rgb(33, 37, 47);
+}
+#contact-Us .container form .col-md-10 button:hover{
+    background-color: rgb(48, 56, 65);
+}
+#contact-Us #EnterMessage{
+    color: var(--body);/*si se altera esta linea, se altera la linea 372,379,387*/
+}
+
+/*Footer styles*/
+#footer{
+    padding-top: 5rem;
+}
+#footer .footer-top {
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #589e4e;
+}
+
+#footer .footer-top a {
+    color: white;
+}
+
+#footer .footer-top a:hover {
+    color: var(--white);
+}
+
+#footer .footer-bottom {
+    color:white;
+    background-color: #589e4e;
+}
+#footer .logo-foot {
+    width: 15%;
+}
+#footer .App-name{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#footer .social-icons a{
+    padding-left: 1rem;
+}
