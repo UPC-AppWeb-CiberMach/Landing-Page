@@ -15,20 +15,13 @@
     <title>MoviTech</title>
 </head>
 <body>
-    <!------------------------     HEADER     ------------------------>
     <header class="sticky-top" id="header">
         <nav class="navbar navbar-expand-lg bg-blue navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#header">
-                    <!--Logo de la empresa-->
-                    <img src="public/assets/images/Logo-MoviTech.png" alt="Navbar-Branch"
-                         class="d-inline-block align-text-top text-w">
-                    MoviTech
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="nav-item dropdown d-none d-lg-block">
+                <!--Logo de nuestra startup-->
+                <a class="navbar-brand" href="#header"><img src="public/assets/images/Logo-MoviTech.png" alt="Navbar-Branch" class="d-inline-block align-text-top text-w">MoviTech</a>
+                <!-- Botón de idioma -->
+                <div class="nav-item dropdown">
                     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="public/assets/img/Idiomas.png" alt="Idiomas" style="width: 32px; height: 32px;">
                     </button>
@@ -48,38 +41,15 @@
                     </ul>
                 </div>
 
-                <!--------------------------------  SECCIONES DE BOTONES ------------------------------------------------->
+                <!-- Secciones de botones -->
                 <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                     <ul class="navbar-nav text-center">
-                        <li><a href="#hero" class="nav-item nav-link active lang" key="navbar-item1">Home</a> </li>
-                        <li><a href="#about-us" class="nav-item nav-link lang" key="navbar-item2">About Us</a> </li>
-                        <li><a href="#services" class="nav-item nav-link lang" key="navbar-item4">Services</a>  </li>
-                        <li><a href="#pricing" class="nav-item nav-link lang" key="navbar-item5">Pricing</a>    </li>
-                        <li><a href="#about-team" class="nav-item nav-link lang" key="navbar-item3">Team</a>    </li>
+                        <li><a href="#hero" class="nav-item nav-link active lang" key="navbar-item1">Home</a></li>
+                        <li><a href="#about-us" class="nav-item nav-link lang" key="navbar-item2">About Us</a></li>
+                        <li><a href="#services" class="nav-item nav-link lang" key="navbar-item4">Services</a></li>
+                        <li><a href="#pricing" class="nav-item nav-link lang" key="navbar-item5">Pricing</a></li>
+                        <li><a href="#about-team" class="nav-item nav-link lang" key="navbar-item3">Team</a></li>
                         <li><a href="#"><button class="btn btn-primary lang" key="cardButtonPricing">Get Started</button></a></li>
-
-                        <!-- Botón de idioma para pantallas pequeñas -->
-                        <li class="d-lg-none mt-2">
-                            <div class="nav-item dropdown">
-                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="public/assets/img/Idiomas.png" alt="Idiomas" style="width: 32px; height: 32px;">
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="es">
-                                            <img src="public/assets/img/ESPANA.png" alt="Español" style="width: 24px; height: 24px; margin-right: 8px;">
-                                            <span class="language lang" key="language2" style="color: black">Español</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="en">
-                                            <img src="public/assets/img/EEUU.png" alt="English" style="width: 24px; height: 24px; margin-right: 8px;">
-                                            <span class="language lang" key="language1" style="color: black">English</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -87,7 +57,6 @@
     </header>
 
     <main>
-        <!--------------------------------  HOME ------------------------------------------------->
         <section id="hero" class="d-flex align-items-center vh-100" style="background-image: url('public/assets/img/Fondo-imagen.png'); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">
             <div class="container position-relative z-index-2">
                 <div class="row align-items-center py-1">
@@ -100,7 +69,7 @@
             </div>
         </section>
 
-        <!--------------------------------  ABOUT ------------------------------------------------->
+        <!-----------------------------------------  ABOUT ------------------------------------------------->
         <section id="about-us">
             <div>
                 <section id="Us"class="py-1 ">
@@ -267,121 +236,121 @@
                 </div>
             </div>
         </section>
+        <br><br>
+        <!--------------------------------  TEAM ------------------------------------------------->
+        <section id="about-team">
+            <div class="container py-4">
+                <div class="row">
+                    <!-- Información del equipo -->
+                    <div class="col-lg-12 text-center text-lg-start mb-4">
+                        <h5 class="text-primary text-uppercase lang" style="text-align: center" key="subTitleOurTeam">About Us</h5>
+                        <p class="text-small text-muted lang" key="student-desc">
+                            We are a group of students studying Software Engineering at the Peruvian University of Applied Sciences.
+                            We have come together to form a development team working on a web application.
+                            Each of us brings unique skills and experience in different areas of software development.
+                        </p>
+                    </div>
+                </div>
+                <!-------------------->
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card d-flex align-items-center">
+                            <br>
+                            <img src="public/assets/img/messo.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
+                            <div class="card-body">
+                                <h6 class="card-title" style="text-align: center; color:#424141;">Bárbara Antonella Espinoza Delgado</h6>
+                                <p class="card-text text-center">Development team leader</p>
+                            </div>
+                            <div class="social-icons">
+                                <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card d-flex align-items-center">
+                            <br>
+                            <img src="public/assets/img/Vladimir.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
+                            <div class="card-body">
+                                <h6 class="card-title" style="text-align: center; color:#424141;">Quique Vladimir Jara Benites</h6>
+                                <p class="card-text text-center">Developer</p>
+                            </div>
+                            <div class="social-icons">
+                                <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card d-flex align-items-center">
+                            <br>
+                            <img src="public/assets/img/Roy.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
+                            <div class="card-body">
+                                <h6 class="card-title" style="text-align: center; color:#424141;">Roy Linsh Fernandez Remon</h6>
+                                <p class="card-text text-center">Developer</p>
+                            </div>
+                            <div class="social-icons">
+                                <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card d-flex align-items-center">
+                            <br>
+                            <img src="public/assets/img/Mathias.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
+                            <div class="card-body">
+                                <h6 class="card-title" style="text-align: center; color:#424141;">Mathias Adriano Hidalgo Lopez</h6>
+                                <p class="card-text text-center">Developer</p>
+                            </div>
+                            <div class="social-icons">
+                                <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card d-flex align-items-center">
+                            <br>
+                            <img src="public/assets/images/Adriana.png"
+                                 class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
+                            <div class="card-body">
+                                <h6 class="card-title" style="text-align: center; color:#424141;">Adriana María Diestra Zambrano</h6>
+                                <p class="card-text text-center">Developer</p>
+                            </div>
+                            <div class="social-icons">
+                                <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card d-flex align-items-center">
+                            <br>
+                            <img src="public/assets/images/Foto Perfil Integrante Nestor.png"
+                                 class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
+                            <div class="card-body">
+                                <h6 class="card-title" style="text-align: center; color:#424141;">Néstor Velarde Gonzales</h6>
+                                <p class="card-text text-center">Developer</p>
+                            </div>
+                            <div class="social-icons">
+                                <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <br><br>
-    <!--------------------------------  TEAM ------------------------------------------------->
-    <section id="about-team">
-        <div class="container py-4">
-            <div class="row">
-                <!-- Información del equipo -->
-                <div class="col-lg-12 text-center text-lg-start mb-4">
-                    <h5 class="text-primary text-uppercase lang" style="text-align: center" key="subTitleOurTeam">About Us</h5>
-                    <p class="text-small text-muted lang" key="student-desc">
-                        We are a group of students studying Software Engineering at the Peruvian University of Applied Sciences.
-                        We have come together to form a development team working on a web application.
-                        Each of us brings unique skills and experience in different areas of software development.
-                    </p>
-                </div>
-            </div>
-            <!-------------------->
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card d-flex align-items-center">
-                        <br>
-                        <img src="public/assets/img/messo.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
-                        <div class="card-body">
-                            <h6 class="card-title" style="text-align: center; color:#424141;">Bárbara Antonella Espinoza Delgado</h6>
-                            <p class="card-text text-center">Development team leader</p>
-                        </div>
-                        <div class="social-icons">
-                            <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card d-flex align-items-center">
-                        <br>
-                        <img src="public/assets/img/Vladimir.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
-                        <div class="card-body">
-                            <h6 class="card-title" style="text-align: center; color:#424141;">Quique Vladimir Jara Benites</h6>
-                            <p class="card-text text-center">Developer</p>
-                        </div>
-                        <div class="social-icons">
-                            <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card d-flex align-items-center">
-                        <br>
-                        <img src="public/assets/img/Roy.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
-                        <div class="card-body">
-                            <h6 class="card-title" style="text-align: center; color:#424141;">Roy Linsh Fernandez Remon</h6>
-                            <p class="card-text text-center">Developer</p>
-                        </div>
-                        <div class="social-icons">
-                            <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card d-flex align-items-center">
-                        <br>
-                        <img src="public/assets/img/Mathias.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
-                        <div class="card-body">
-                            <h6 class="card-title" style="text-align: center; color:#424141;">Mathias Adriano Hidalgo Lopez</h6>
-                            <p class="card-text text-center">Developer</p>
-                        </div>
-                        <div class="social-icons">
-                            <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card d-flex align-items-center">
-                        <br>
-                        <img src="public/assets/images/Adriana.png"
-                             class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
-                        <div class="card-body">
-                            <h6 class="card-title" style="text-align: center; color:#424141;">Adriana María Diestra Zambrano</h6>
-                            <p class="card-text text-center">Developer</p>
-                        </div>
-                        <div class="social-icons">
-                            <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card d-flex align-items-center">
-                        <br>
-                        <img src="public/assets/images/Foto Perfil Integrante Nestor.png"
-                             class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
-                        <div class="card-body">
-                            <h6 class="card-title" style="text-align: center; color:#424141;">Néstor Velarde Gonzales</h6>
-                            <p class="card-text text-center">Developer</p>
-                        </div>
-                        <div class="social-icons">
-                            <a style="margin: 10px" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a style="margin: 10px" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                            <a style="margin: 10px" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--------------------------------  FOOTER ------------------------------------------------->
-    <div id="footer">
+    <footer id="footer">
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
@@ -434,7 +403,7 @@
                 </div>
            </div>
        </div>
-    </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
