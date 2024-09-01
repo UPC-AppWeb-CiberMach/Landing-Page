@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS, vinculación por link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- file Style -->
+    <link rel="stylesheet" href="public/assets/styles/styles.css">
+    <!-- Imagen de la pestaña -->
+    <link rel="icon" href="public/assets/images/Logo-MoviTech.png">
+    <!-- Nombre de la pestaña -->
+    <title>MoviTech</title>
+</head>
+<body>
+<header class="sticky-top" id="header">
+    <nav class="navbar navbar-expand-lg bg-blue navbar-dark">
+        <div class="container-fluid">
+            <!-- Logo de nuestra startup -->
+            <a class="navbar-brand" href="#header">
+                <img src="public/assets/images/Logo-MoviTech.png" alt="Navbar-Brand" class="d-inline-block align-text-top text-w">
+                MoviTech
+            </a>
+
+            <!-- Botón Hamburguesa para pantallas pequeñas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Contenedor de la barra de navegación -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center">
+                    <li><a href="#hero" class="nav-item nav-link active lang" key="navbar-item1">Home</a></li>
+                    <li><a href="#about-us" class="nav-item nav-link lang" key="navbar-item2">About Us</a></li>
+                    <li><a href="#services" class="nav-item nav-link lang" key="navbar-item4">Services</a></li>
+                    <li><a href="#pricing" class="nav-item nav-link lang" key="navbar-item5">Pricing</a></li>
+                    <li><a href="#about-team" class="nav-item nav-link lang" key="navbar-item3">Team</a></li>
+                    <li><a href="#"><button class="btn btn-primary lang" key="cardButtonPricing">Get Started</button></a></li>
+                </ul>
+            </div>
+
+            <!-- Botón de idioma, visible en pantallas grandes -->
+            <div class="nav-item dropdown d-none d-lg-block">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="public/assets/img/Idiomas.png" alt="Idiomas" style="width: 32px; height: 32px;">
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="es">
+                            <img src="public/assets/img/ESPANA.png" alt="Español" style="width: 24px; height: 24px; margin-right: 8px;">
+                            <span class="language lang" key="language2" style="color: black">Español</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="en">
+                            <img src="public/assets/img/EEUU.png" alt="English" style="width: 24px; height: 24px; margin-right: 8px;">
+                            <span class="language lang" key="language1" style="color: black">English</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="public/assets/scripts/main.js"></script>
+<!--- Finaly --->
+</body>
+</html>
