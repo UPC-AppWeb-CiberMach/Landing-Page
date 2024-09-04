@@ -31,7 +31,7 @@
     Left:35px;
 }
 #header .container-button .toggle .text{
-    color: rgb(255, 255, 255);
+    color: #333647;
     position: absolute;
     top:3px;
     Left:70px
@@ -49,8 +49,14 @@
     .order-1 {
         order: 2;
     }
-    .order-2 {
-        order: 1;
+    .nav-item{
+        text-align: center;
+    }
+    .navbar-toggler-icon span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #333647;
     }
 }
 
@@ -69,9 +75,10 @@
     margin-right: 15px;
 }
 
-.navbar-nav .nav-item.tb1 .nav-link {
+
+/*.navbar-nav .nav-item.tb1 .nav-link {
     margin-right: 80px;
-}
+}*/
 
 .navbar-nav .nav-item.tb2 .nav-link {
     color: #ffffff;
@@ -85,12 +92,13 @@
 .navbar-nav .nav-item .nav-link:hover {
     background-color: #8d6cc3;
     color: white;
+    margin-right: 15px;
 }
 
 .btn-main {
     color: #ffffff;
     background-color: #34b634;
-    padding: 8px 15px;
+    padding: 8px 10px;
     border-radius: 5px;
     margin-right: 12px;
     border: none;
@@ -103,7 +111,7 @@
 /*-----------------------------------------*/
 
 .text .title {
-    color: #555d6e;
+    color: #333647;
     font-weight: 700;
     font-size: 25px;
     text-align: center;
@@ -125,7 +133,7 @@
 }
 
 .text-title {
-    color: #494d50;
+    color: #333647;
 }
 
 

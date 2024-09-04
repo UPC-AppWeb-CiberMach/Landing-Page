@@ -129,9 +129,6 @@ section{
 #hero .order-lg-2{
     width: 50%;
     height: 100%;
-
-
-
 }
 
 #hero .my-image {
@@ -139,12 +136,7 @@ section{
     height: 100%;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
     margin: -50px 20px 0px 0px;
-
-
-  
 }
-
-
 
 
 /*AboutUs styles*/
@@ -217,8 +209,6 @@ section{
     margin: 100px;
 
 }
-
-
 
 
 #Us iframe {
