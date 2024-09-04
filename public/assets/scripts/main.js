@@ -5,11 +5,24 @@ function AnimatedToggle() {
 
 $.getJSON('public/assets/scripts/Idioma.json', function(json) {
     $(function() {
+        let defaultLang = 'es';
+        $('[data-current-lang]').attr('data-current-lang', defaultLang);
+
+        $('.lang').each(function(index, element) {
+            let key = $(this).attr('key');
+            let placeholderExist = $(this).attr('placeholder');
+
+            if (placeholderExist) {
+                $(this).attr('placeholder', json[defaultLang][key]);
+            } else {
+                $(this).text(json[defaultLang][key]);
+            }
+        });
+
         $('.translate').click(function(event) {
             event.preventDefault();
 
             let lang = $(this).attr('data-lang');
-
             let currentLang = $('[data-current-lang]').attr('data-current-lang');
 
             if (lang === currentLang) {
