@@ -110,16 +110,35 @@
 }
 
 #services {
-    background-color: #C4C4C4;
+    background-color: #dcd9d9;
 }
 
 .services {
-    padding: 0px 70px;
+    padding: 0px 100px;
 }
 
 
 .textos {
-    color: #175b83;
+    color: #494d50;
     font-size: 16px;
     font-weight: 600;
 }
+
+.text-title {
+    color: #494d50;
+}
+
+
+/* Reducir el tamaño de la tarjeta */
+.card {
+    max-width: 200px; /* Ajusta el ancho máximo */
+    height: auto; /* Ajusta el alto automáticamente */
+}
+
+/* Reducir el tamaño de la imagen */
+.card-img-top {
+    width: 100px; /* Ajusta el ancho */
+    height: 100px; /* Ajusta el alto */
+}
+
+

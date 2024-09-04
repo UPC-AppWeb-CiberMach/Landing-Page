@@ -380,7 +380,7 @@ section{
     color:white;
     padding-top: 20px;
     padding-bottom: 40px;
-    background-color: #589e4e;
+    background-color: #5AB84A;
 }
 
 #footer .footer-top a {
@@ -393,15 +393,14 @@ section{
 
 #footer .footer-bottom {
     color:white;
-    background-color: #589e4e;
+    background-color: #5AB84A;
 }
 #footer .logo-foot {
-    width: 15%;
+    width: 45%;
 }
 #footer .App-name{
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 1.5rem;
 }
 #footer .social-icons a{
     padding-left: 1rem;
