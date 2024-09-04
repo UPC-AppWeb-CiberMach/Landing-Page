@@ -8,11 +8,12 @@
     <!-- Bootstrap CSS, vinculación por link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- file Style -->
-    <link rel="stylesheet" href="public/assets/styles/styles.css">
+    <link rel="stylesheet" href="public/styles/styles.css">
+    <link rel="stylesheet" href="public/styles/header.css">
     <!-- Imagen de la pestaña -->
-    <link rel="icon" href="public/assets/images/Logo-MoviTech.png">
+    <link rel="icon" href="public/assets/picture/Logo01.png">
     <!-- Nombre de la pestaña -->
-    <title>MoviTech</title>
+    <title>MoviRent</title>
 </head>
 
 <body>
@@ -23,28 +24,28 @@
         <nav class="navbar navbar-expand-lg bg-blue navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#header">
-                    <!--Logo de la empresa-->
-                    <img src="public/assets/images/Logo-MoviTech.png" alt="Navbar-Branch"
-                         class="d-inline-block align-text-top text-w">
-                    MoviTech
+                    <img src="public/assets/picture/Logo01.png"
+                         class="d-inline-block align-text-top text-w" style="width: 42px; height: 42px;">
+                    <span class="name font-weight-bold">MoviRent</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="nav-item dropdown d-none d-lg-block">
                     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="public/assets/img/Idiomas.png" alt="Idiomas" style="width: 32px; height: 32px;">
+                        <img src="public/assets/picture/idiomai18n.png" alt="Idiomas" style="width: 22px; height: 22px;">
                     </button>
                     <ul class="dropdown-menu">
                         <li>
                             <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="es">
-                                <img src="public/assets/img/ESPANA.png" alt="Español" style="width: 24px; height: 24px; margin-right: 8px;">
+                                <img src="public/assets/picture/ESPANA.png" alt="Español" style="width: 24px; height: 24px; margin-right: 8px;">
                                 <span class="language lang" key="language2" style="color: black">Español</span>
                             </a>
                         </li>
                         <li>
                             <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="en">
-                                <img src="public/assets/img/EEUU.png" alt="English" style="width: 24px; height: 24px; margin-right: 8px;">
+                                <img src="public/assets/picture/EEUU.png" alt="English" style="width: 24px; height: 24px; margin-right: 8px;">
                                 <span class="language lang" key="language1" style="color: black">English</span>
                             </a>
                         </li>
@@ -54,13 +55,25 @@
                 <!------------------------------------     BOTONES     ------------------------------------->
                 <!------------------------------------------------------------------------------------------>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                    <ul class="navbar-nav text-center">
-                        <li><a href="#hero" class="nav-item nav-link active lang" key="navbar-item1">Inicio</a> </li>
-                        <li><a href="#about-us" class="nav-item nav-link lang" key="navbar-item2">Sobre Nosotros</a> </li>
-                        <li><a href="#services" class="nav-item nav-link lang" key="navbar-item4">Servicios</a>  </li>
-                        <li><a href="#pricing" class="nav-item nav-link lang" key="navbar-item5">Planes</a>    </li>
-                        <li><a href="#about-team" class="nav-item nav-link lang" key="navbar-item3">Team</a>    </li>
-                        <li><a href="#"><button class="btn btn-primary lang" key="cardButtonPricing">Empieza Ya!</button></a></li>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#hero" class="nav-link lang" key="navbar-item1">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about-us" class="nav-link lang" key="navbar-item2">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link lang" key="navbar-item4">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#pricing" class="nav-link lang" key="navbar-item5">Precios</a>
+                        </li>
+                        <li class="nav-item tb1">
+                            <a href="#about-team" class="nav-link lang" key="navbar-item3">Equipo</a>
+                        </li>
+                        <li class="nav-item tb2">
+                            <a href="#" class="nav-link lang" key="cardButtonPricing">Empieza Ya!</a>
+                        </li>
 
                         <!------------------------------------------------------------------------------------------>
                         <!-------------------------------------     I18N     --------------------------------------->
@@ -68,18 +81,18 @@
                         <li class="d-lg-none mt-2">
                             <div class="nav-item dropdown">
                                 <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="public/assets/img/Idiomas.png" alt="Idiomas" style="width: 32px; height: 32px;">
+                                    <img src="public/assets/picture/Idiomas.png" alt="Idiomas" style="width: 32px; height: 32px;">
                                 </button>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="es">
-                                            <img src="public/assets/img/ESPANA.png" alt="Español" style="width: 24px; height: 24px; margin-right: 8px;">
+                                            <img src="public/assets/picture/ESPANA.png" alt="Español" style="width: 24px; height: 24px; margin-right: 8px;">
                                             <span class="language lang" key="language2" style="color: black">Español</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="dropdown-item d-flex align-items-center translate" href="#" data-lang="en">
-                                            <img src="public/assets/img/EEUU.png" alt="English" style="width: 24px; height: 24px; margin-right: 8px;">
+                                            <img src="public/assets/picture/EEUU.png" alt="English" style="width: 24px; height: 24px; margin-right: 8px;">
                                             <span class="language lang" key="language1" style="color: black">English</span>
                                         </a>
                                     </li>
@@ -96,13 +109,13 @@
         <!------------------------------------------------------------------------------------------>
         <!-------------------------------------     HOME     --------------------------------------->
         <!------------------------------------------------------------------------------------------>
-        <section id="hero" class="d-flex align-items-center vh-100" style="background-image: url('public/assets/img/Fondo-imagen.png'); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">
+        <section id="hero" class="d-flex align-items-center vh-100" style="background-image: url('public/assets/picture/Fondo-imagen.png'); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">
             <div class="container position-relative z-index-2">
                 <div class="row align-items-center py-1">
                     <div class="col-lg-6 offset-lg-5 text-center text-lg-start">
-                        <p class="h1 text-uppercase mb-3 lang" key="titleHero" style="color: rgba(59,57,57,0.81); font-size: 22px">Welcome to MoviTech</p>
-                        <h2 class="mb-4 lang" key="subTitleHero" style="color: rgba(54,52,52,0.81); font-size: 14px">ARE YOU READY FOR NEW ADVENTURES?</h2>
-                        <a href="#"><button class="btn btn-primary lang" key="cardButtonPricing">Empieza Ya!</button></a>
+                        <p class="h1 text-uppercase mb-3 lang" key="titleHero" style="color: rgba(59,57,57,0.81); font-size: 22px">Bienvenido a MoviRent</p>
+                        <h2 class="mb-4 lang" key="subTitleHero" style="color: rgba(54,52,52,0.81); font-size: 18px">Listos para la nueva aventura?</h2>
+                        <a href="#"><button class="btn-main lang" key="cardButtonPricing">Empieza Ya!</button></a>
                     </div>
                 </div>
             </div>
@@ -114,19 +127,15 @@
         <section id="about-us">
             <div>
                 <section id="Us"class="py-1 ">
-                    <div class="container py-4">
+                    <div class="container py-4 text"> <br> <br>
+                        <h4 class="mb-1 mb-3 title lang" key="titleAboutUs">Sobre Nosotros</h4>
+                        <br><br>
                         <div class="row">
                             <div class="col-lg-6 order-2 order-lg-2">
-                                <h4 class="h6 mb-1 text-uppercase text-primary mb-3" key="titleAboutUs">Sobre Nosotros</h4>
-                                <h4 class="mb-4 text-uppercase lang" key="subTitleAboutUs">Somos el equipo perfecto para solucionar tus problemas con el transporte urbano. </h4>
+                                <h4 class="mb-4 lang" key="subTitleAboutUs">Somos el equipo perfecto para solucionar tus problemas con el transporte urbano. </h4>
                                 <p class="text-small text-muted lang" key="bodyAboutUs">Somos una Startup cuya misión es optimizar el transporte en Lima de una manera segura y ecológica.
                                     ofrecemos a nuestros usuarios:</p>
                                 <div class="p-2" ></div>
-                                <ul class="list-check list-unstyled row px-3 mb-4">
-                                    <li class="text-small text-muted col-lg-6 mb-2 bi bi-arrow-right-circle-fill lang" key="feat1AboutUs"><span>👾 Eficiencia</span></li>
-                                    <li class="text-small text-muted col-lg-6 mb-2 bi bi-arrow-right-circle-fill lang" key="feat2AboutUs"><span>👾 Flexibilidad</span></li>
-                                    <li class="text-small text-muted col-lg-6 mb-2 bi bi-arrow-right-circle-fill lang" key="feat3AboutUs"><span>👾 Soporte Técnico</span></li>
-                                </ul>
                             </div>
 
                             <div class="col-lg-5 ml-auto mb-4 mb-lg-0 order-1 order-lg-1">
@@ -138,13 +147,13 @@
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="public/assets/img/1-scooter.png" class="d-block w-100" alt="...">
+                                            <img src="public/assets/picture/1-scooter.png" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="public/assets/img/2-scooter.png" class="d-block w-100" alt="...">
+                                            <img src="public/assets/picture/2-scooter.png" class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="public/assets/img/3-scooter.png" class="d-block w-100" alt="...">
+                                            <img src="public/assets/picture/3-scooter.png" class="d-block w-100" alt="...">
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -162,119 +171,101 @@
                 </section>
             </div>
         </section>
-        <hr>
         <!------------------------------------------------------------------------------------------>
         <!-------------------------------------     SERVICE     ------------------------------------->
         <!------------------------------------------------------------------------------------------>
         <section id="services">
+            <br><br><br><br>
             <div class="row mb-0">
-                <div class="col-md-8 mx-auto text-center mb-4">
-                    <h5 class="text-primary text-uppercase lang" key="titleServices">SERVICES</h5>
+                <div class="col-md-8 mx-auto text-center mb-1 text">
+                    <h4 class="mb-1 mb-3 title lang" key="titleAboutUs">Nuestros servicios</h4>
                     <p class="lang" key="bodyServices" style="font-size: 18px">Here are some of the services offered in the app.</p>
                 </div>
             </div>
-            <div class="my-0 m-0">
-                <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-                    <div class="col text-center">
-                        <div class="card h-100 d-flex flex-column" style="border: none">
-                            <div class="d-flex justify-content-center align-items-center flex-grow-1">
-                                <img src="public/assets/img/1-icono.png" alt="..." width="150px">
-                            </div>
-                            <div class="card-body" style="color: #565454; font-size: 20px">
-                                <p class="lang" key="Service1" class="card-title">Find your right scooter</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col text-center">
-                        <div class="card h-100 d-flex flex-column" style="border: none;">
-                            <div class="d-flex justify-content-center align-items-center flex-grow-1">
-                                <img src="public/assets/img/2-icono.png" alt="..." width="150px">
-                            </div>
-                            <div class="card-body" style="color: #565454; font-size: 20px">
-                                <p class="lang" class="card-title" key="Service2">Reserve at the best price</p>
+            <div class="services">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="public/assets/picture/1-scooter.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="text text-center">Encuentra tu Scooter</p>
+                                <p class="card-text text-center">Registre y busca nuestras miles de scooter electricas disponibles para alquilar en nuestra ciudad de Lima.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col text-center">
-                        <div class="card h-100 d-flex flex-column" style="border: none">
-                            <div class="d-flex justify-content-center align-items-center flex-grow-1">
-                                <img src="public/assets/img/3-icono.png" alt="..." width="150px">
+                    <div class="col">
+                        <div class="card">
+                            <img src="public/assets/picture/1-scooter.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="text text-center">Reserva al mejor precio</p>
+                                <p class="card-text text-center">¡Nuestros precios están garantizados iguales o inferiores a los que puedes reservar en persona!, accede a nuestros planes de costos.</p>
                             </div>
-                            <div class="card-body" style="color: #565454; font-size: 20px">
-                                <p class="lang" key="Service3">Enjoy the trip</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="public/assets/picture/1-scooter.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="text text-center">Disfruta el viaje</p>
+                                <p class="card-text text-center">Disfruta tus viajes a cualquier parte de tu destino, ayuda a incentivar al transporte ecológico en nuestra ciudad metropolitana.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <br><br><br>
         </section>
-        <br><br><br>
         <!------------------------------------------------------------------------------------------>
         <!----------------------------------     SUSCRIPTION     ----------------------------------->
         <!------------------------------------------------------------------------------------------>
         <section id="pricing">
-            <div class="container">
+            <br><br><br>
+            <div class="container text">
+                <h4 class="mb-1 mb-3 title lang" key="titleAboutUs">Nuestras suscripciones</h4>
                 <div class="row g-4 justify-content-center m-2" style="text-align: center; padding: 0px">
-                    <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp m-2" data-wow-delay="0.1s" style="background: #6ab160; padding: 12px; border-radius: 12px;">
+                    <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp m-2" data-wow-delay="0.1s" style="background: #5AB84A; padding: 12px; border-radius: 12px;">
                         <div class="store-item position-relative text-center">
-                            <img class="img-fluid" src="public/assets/img/Idiomas.png" alt="" width="50px">
+                            <img class="img-fluid" src="public/assets/picture/idiomai18n.png" alt="" width="50px">
                             <div class="p-2">
-                                <div class="text-center mb-3">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
+                                <h4 class="mb-3">Plan mensual</h4>
+                                <p>Scooter eléctrico</p>
+                                <div class="textos">
+                                    Plan con acceso a 7 días de la semana 100% garantizado los Scooter. <br>
+                                    S/. 39
                                 </div>
-                                <h4 class="mb-3">Weekly plan</h4>
-                                <p>Available vehicles:</p>
-                                <h6>Scooter</h6>
                             </div>
-                            <div class="store-overlay">
-                                <a href="#" class="btn rounded-pill py-2 px-4 m-2" style="background-color: #2b8e1d; ">Subscribe<i class="fa fa-arrow-right ms-2"></i></a>
-                                <br>
-                                <a href="#" class="btn rounded-pill py-2 px-4 m-2" style="background-color: #2b8e1d">S/ 39.90</a>
-                            </div>
+                            <a href="#"><button class="btn-main lang" key="cardButtonPricing">Suscribete!</button></a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp m-2" data-wow-delay="0.1s" style="background: #6ab160; padding: 12px; border-radius: 12px;">
+                    <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp m-2" data-wow-delay="0.1s" style="background: #7AD672; padding: 12px; border-radius: 12px;">
                         <div class="store-item position-relative text-center">
-                            <img class="img-fluid" src="public/assets/img/Idiomas.png" alt="" width="50px">
+                            <img class="img-fluid" src="public/assets/picture/Idiomas.png" alt="" width="50px">
                             <div class="p-2">
-                                <div class="text-center mb-3">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                </div>
-                                <h4 class="mb-3">Weekly plan</h4>
-                                <p>Available vehicles:</p>
-                                <h6>Scooter</h6>
+                                <h4 class="mb-3">Plan Trimestral</h4>
+                                <p>Scooter eléctrico</p>
+                                <p class="card-text">Plan con acceso a 30 días
+                                    cuenta con beneficio de
+                                    rentar scooter deportivos. <br>
+                                    S/. 99</p>
                             </div>
                             <div class="store-overlay">
                                 <a href="#" class="btn rounded-pill py-2 px-4 m-2" style="background-color: #2b8e1d">Subscribe<i class="fa fa-arrow-right ms-2"></i></a>
-                                <br>
-                                <a href="#" class="btn  rounded-pill py-2 px-4 m-2" style="background-color: #2b8e1d">S/ 99.90</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp m-2" data-wow-delay="0.1s" style="background: #6ab160; padding: 12px; border-radius: 12px;">
+                    <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp m-2" data-wow-delay="0.1s" style="background: #7AD672; padding: 12px; border-radius: 12px;">
                         <div class="store-item position-relative text-center">
-                            <img class="img-fluid" src="public/assets/img/Idiomas.png" alt="" width="50px">
+                            <img class="img-fluid" src="public/assets/picture/Idiomas.png" alt="" width="50px">
                             <div class="p-2">
-                                <div class="text-center mb-3">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                </div>
-                                <h4 class="mb-3">Weekly plan</h4>
-                                <p>Available vehicles:</p>
-                                <h6>Scooter</h6>
+                                <h4 class="mb-3">Plan Anual</h4>
+                                <p>Scooter eléctrico</p>
+                                <p class="card-text">Plan con acceso con
+                                    todos los beneficios durante 1 año, suscripción con garantía. <br>
+                                    S/. 199</p>
                             </div>
                             <div class="store-overlay">
                                 <a href="#" class="btn rounded-pill py-2 px-4 m-2" style="background-color: #2b8e1d">Subscribe<i class="fa fa-arrow-right ms-2"></i></a>
-                                <br>
-                                <a href="#" class="btn rounded-pill py-2 px-4 m-2" style="background-color: #2b8e1d">S/ 199.90</a>
                               </div>
                           </div>
                     </div>
@@ -287,7 +278,8 @@
     <!-------------------------------------     TEAM     ------------------------------------->
     <!------------------------------------------------------------------------------------------>
     <section id="about-team">
-        <div class="container py-4">
+        <div class="container py-4 text">
+            <h4 class="mb-1 mb-3 title lang" key="titleAboutUs">Equipo de desarrollo</h4>
             <div class="row">
                 <!-- Información del equipo -->
                 <div class="col-lg-12 text-center text-lg-start mb-4">
@@ -304,7 +296,7 @@
                 <div class="col">
                     <div class="card d-flex align-items-center">
                         <br>
-                        <img src="public/assets/img/messo.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
+                        <img src="public/assets/student/messo.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
                         <div class="card-body">
                             <h6 class="card-title" style="text-align: center; color:#424141;">Bárbara Antonella Espinoza Delgado</h6>
                             <p class="card-text text-center">Development team leader</p>
@@ -319,7 +311,7 @@
                 <div class="col">
                     <div class="card d-flex align-items-center">
                         <br>
-                        <img src="public/assets/img/Vladimir.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
+                        <img src="public/assets/student/Vladimir.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
                         <div class="card-body">
                             <h6 class="card-title" style="text-align: center; color:#424141;">Quique Vladimir Jara Benites</h6>
                             <p class="card-text text-center">Developer</p>
@@ -334,7 +326,7 @@
                 <div class="col">
                     <div class="card d-flex align-items-center">
                         <br>
-                        <img src="public/assets/img/Roy.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
+                        <img src="public/assets/student/Roy.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
                         <div class="card-body">
                             <h6 class="card-title" style="text-align: center; color:#424141;">Roy Linsh Fernandez Remon</h6>
                             <p class="card-text text-center">Developer</p>
@@ -349,7 +341,7 @@
                 <div class="col">
                     <div class="card d-flex align-items-center">
                         <br>
-                        <img src="public/assets/img/Mathias.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
+                        <img src="public/assets/student/Mathias.png" class="card-img-top rounded-circle" alt="..." style="width: 90px; height: 90px; text-align: center">
                         <div class="card-body">
                             <h6 class="card-title" style="text-align: center; color:#424141;">Mathias Adriano Hidalgo Lopez</h6>
                             <p class="card-text text-center">Developer</p>
@@ -457,7 +449,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="public/assets/scripts/main.js"></script>
+    <script src="public/scripts/main.js"></script>
     <!------------------------------------------------------------------------------------------>
     <!-------------------------------------     FINALY     ------------------------------------->
     <!------------------------------------------------------------------------------------------>

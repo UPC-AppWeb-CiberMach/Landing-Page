@@ -1,0 +1,125 @@
+/*-----------------------------------------*/
+/*----------------  HEADER ----------------*/
+/*-----------------------------------------*/
+#header .navbar{
+    display: flex;
+    background-color: #5AB84A;
+    border-bottom: 1px solid #5AB84A;
+    position: sticky;
+    box-shadow: var(--box-shadow);
+}
+#header .navbar .navbar-brand {
+    font-size: 25px;
+    padding-left: 3rem;
+}
+#header .language{
+    padding-left: 7rem;
+}
+#header .form-switch{
+    display: flex;
+}
+
+#header .nav-item span{
+    padding-left:1px;
+    padding-right: 3rem;
+    color: #ffffff;
+}
+#header .container-button .toggle.active{
+    background: #ffffff;
+}
+#header .container-button .toggle.active .toggle-button{
+    Left:35px;
+}
+#header .container-button .toggle .text{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:3px;
+    Left:70px
+
+}
+#header .switch .container{
+}
+#header .form-check-input {
+    width: 50px;
+    height: 25px;
+    transition: 0.3s;
+}
+/* hero section */
+@media (max-width: 992px) {
+    .order-1 {
+        order: 2;
+    }
+    .order-2 {
+        order: 1;
+    }
+}
+
+.name {
+    color: #333647;
+    font-weight: 700;
+}
+
+/* Estilo general para los enlaces de navegación */
+.navbar-nav .nav-item .nav-link {
+    color: #333647; /* Color del texto */
+    font-weight: 700;
+    padding: 6px 10px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-item.tb1 .nav-link {
+    margin-right: 80px;
+}
+
+.navbar-nav .nav-item.tb2 .nav-link {
+    color: #ffffff;
+    background-color: #34b634;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+
+/* Estilo para el fondo de los enlaces al pasar el mouse */
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #8d6cc3;
+    color: white;
+}
+
+.btn-main {
+    color: #ffffff;
+    background-color: #34b634;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 12px;
+    border: none;
+}
+
+.btn-main:hover {
+    background-color: #8d6cc3;
+    color: white;
+}
+/*-----------------------------------------*/
+
+.text .title {
+    color: #555d6e;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+#services {
+    background-color: #C4C4C4;
+}
+
+.services {
+    padding: 0px 70px;
+}
+
+
+.textos {
+    color: #175b83;
+    font-size: 16px;
+    font-weight: 600;
+}

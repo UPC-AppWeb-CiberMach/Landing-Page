@@ -1,3 +1,7 @@
+.text-w{
+    margin-right: 30px;
+}
+
 /*General Fonts Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');/*colocamos el estilo de letra*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');/*colocamos los iconos*/
@@ -82,62 +86,6 @@ section{
     width: 35px;
     height: 31px;
 }
-
-
-/**/
-#header .navbar{
-    display: flex;
-    background-color: #589e4e;
-    border-bottom: 1px solid #589e4e;
-    position: sticky;
-    box-shadow: var(--box-shadow);
-}
-#header .navbar .navbar-brand {
-    font-size: 25px;
-    padding-left: 3rem;
-}
-#header .language{
-    padding-left: 7rem;
-}
-#header .form-switch{
-    display: flex;
-}
-
-#header .nav-item span{
-    padding-left:1px;
-    padding-right: 3rem;
-    color: #ffffff;
-}
-#header .container-button .toggle.active{
-    background: #ffffff;
-}
-#header .container-button .toggle.active .toggle-button{
-    Left:35px;
-}
-#header .container-button .toggle .text{
-    color: rgb(255, 255, 255);
-    position: absolute;
-    top:3px;
-    Left:70px
-
-}
-#header .switch .container{
-}
-#header .form-check-input {
-    width: 50px;
-    height: 25px;
-    transition: 0.3s;
-}
-/* hero section */
-@media (max-width: 992px) {
-    .order-1 {
-        order: 2;
-    }
-    .order-2 {
-        order: 1;
-    }
-}
-
 
 
 
