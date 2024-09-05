@@ -13,6 +13,7 @@
     --body: rgb(136, 136, 136);
     --white: rgb(246, 240, 240);/*si se altera esta linea, se altera la linea 46*/
     --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+    --priority: rgb(51,55,100);
 }
 *{
     margin:0;
@@ -400,6 +401,29 @@ section{
 #footer .social-icons a{
     padding-left: 1rem;
 }
+ #footer .text-color {
+    color: #333764; /* Color del texto para las secciones del footer */
+  }
+
+  #footer .list-unstyled a,
+  #footer .social-icons a {
+    color: #333764; /* Color de los enlaces dentro del footer */
+  }
+  .footer-top .logo-foot {
+    max-width: 100%; /* Asegura que la imagen se ajuste dentro del contenedor */
+  }
+  #footer .text-color {
+    color: #333764; /* Color del texto para las secciones del footer */
+  }
+
+  #footer .list-unstyled a,
+  #footer .social-icons a {
+    color: rgb(51, 55, 100); /* Color de los enlaces dentro del footer */
+  }
+
+  .footer-top .logo-foot {
+    max-width: 100%; /* Asegura que la imagen se ajuste dentro del contenedor */
+  }
 @media (max-width: 768px) {
     .footer-top .row {
       text-align: center;

@@ -18,7 +18,9 @@
 #header .form-switch{
     display: flex;
 }
-
+.navbar-icon{
+    color: var(--priority);
+}
 #header .nav-item span{
     padding-left:1px;
     padding-right: 3rem;
