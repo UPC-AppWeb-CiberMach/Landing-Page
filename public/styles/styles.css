@@ -13,7 +13,7 @@
     --body: rgb(136, 136, 136);
     --white: rgb(246, 240, 240);/*si se altera esta linea, se altera la linea 46*/
     --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
-    --priority: rgb(51,55,100);
+    --blue: rgb(51,55,100);
 }
 *{
     margin:0;
@@ -23,7 +23,7 @@
 html {
     font: normal 16px sans-serif;
     color: #07dffd;
-    scroll-behavior: smooth !important;
+    scroll-behavior: smooth;
 }
 
 ul, nav {
@@ -420,11 +420,30 @@ section{
   #footer .social-icons a {
     color: rgb(51, 55, 100); /* Color de los enlaces dentro del footer */
   }
+.footer-icons{
+    color: #333647;
+}
 
   .footer-top .logo-foot {
     max-width: 100%; /* Asegura que la imagen se ajuste dentro del contenedor */
   }
-@media (max-width: 768px) {
+  .icons-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.social-footer{
+    color:#333647
+}
+@media (max-width: 992px) {
     .footer-top .row {
       text-align: center;
     }
