@@ -233,14 +233,14 @@ section{
 #services h5{
     text-transform: uppercase;
     size-adjust: auto;
-    color: rgb(136, 136, 136);
+    color: black;
 }
 #services p{
-    color: rgb(136, 136, 136);
+    color:black;
 }
 
 #services li{
-    color: rgb(136, 136, 136);
+    color:black;
 }
 #services .texts{
     justify-content: flex-start;
@@ -322,6 +322,7 @@ section{
     height: auto;
 
 }
+
 
 /*Pricing styles*/
 
