@@ -400,3 +400,14 @@ section{
 #footer .social-icons a{
     padding-left: 1rem;
 }
+@media (max-width: 768px) {
+    .footer-top .row {
+      text-align: center;
+    }
+    .footer-top .col-lg-4, .footer-top .col-lg-2 {
+      margin-bottom: 20px;
+    }
+    .footer-top img {
+      width: 200px; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+    }
+  }
