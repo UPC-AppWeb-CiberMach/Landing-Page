@@ -137,7 +137,9 @@ section{
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
     margin: -50px 20px 0px 0px;
 }
-
+#hero .container .row .col-lg-6 h1 p{
+    text-transform: none;
+}
 
 /*AboutUs styles*/
 #Us .embed-responsive {
@@ -148,7 +150,7 @@ section{
 }
 #about-us {
     background-color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 #Us .container .row ul li span{
     padding-left: 1rem;
@@ -209,6 +211,7 @@ section{
     margin: 100px;
 
 }
+
 
 
 #Us iframe {
