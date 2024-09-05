@@ -357,7 +357,7 @@ section{
 #contact-Us .container form .col-md-10 button{
     height: 50px;
     border-color: rgb(36, 41, 51);
-    color: rgb(246, 240, 240);
+    color: #333647;
     background-color: rgb(33, 37, 47);
 }
 #contact-Us .container form .col-md-10 button:hover{
@@ -372,29 +372,29 @@ section{
     padding-top: 5rem;
 }
 #footer .footer-top {
-    color:white;
+    color:#333647;
     padding-top: 20px;
     padding-bottom: 40px;
     background-color: #5AB84A;
 }
 
 #footer .footer-top a {
-    color: white;
+    color: #333647;
 }
 
 #footer .footer-top a:hover {
-    color: var(--white);
+    color: #333647;
 }
 
 #footer .footer-bottom {
-    color:white;
+    color: #333647;
     background-color: #5AB84A;
 }
 #footer .logo-foot {
-    width: 45%;
+    width: 25%;
 }
 #footer .App-name{
-    color: rgb(255, 255, 255);
+    color: #333647;
     font-weight: bold;
 }
 #footer .social-icons a{
