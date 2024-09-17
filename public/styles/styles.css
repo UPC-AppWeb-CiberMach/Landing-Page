@@ -3,15 +3,15 @@
 }
 
 /*General Fonts Imports*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');/*colocamos el estilo de letra*/
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');/*colocamos los iconos*/
-/*General Common Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
 :root {
     --primary: rgb(88, 252, 209);
     --secondary: rgb(12, 238, 178);
     --dark: rgb(33, 37, 47);
     --body: rgb(136, 136, 136);
-    --white: rgb(246, 240, 240);/*si se altera esta linea, se altera la linea 46*/
+    --white: rgb(246, 240, 240);
     --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
     --blue: rgb(51,55,100);
 }
@@ -57,13 +57,11 @@ a.btn {
     transform: translateY(5px);
 }
 
-/*Section Common Styles*/
 section{
     padding-left: 0rem;
     margin-left: 0rem;
 }
 
-/*Header styles*/
 #header.navbar .container-fluid
 {
     background-color: rgb(255, 0, 0);
@@ -82,50 +80,49 @@ section{
 #header .form-switch{
     align-items: flex-end;
 }
-/*Aqui se estiliza el tamaño del logo*/
+
 #header .navbar .container-fluid .navbar-brand img{
     width: 35px;
     height: 31px;
 }
 
-
-
 #hero{
     background-color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
 }
+
 #hero .container .card-group #card-center .card-body{
     background-color: #DFE5EF;
     color: rgb(27, 23, 23);
 }
+
 #hero .container .card-group .card-body{
     background-color:#000000;
     color: #f5f5f5;
 }
+
 #hero #home .row button{
     background-color: #0D6EFD;
 }
+
 #hero span{
     display: flex;
     width: 200px;
     height: 50px;
 }
+
 #hero .callTo-Buttons{
     cursor: pointer;
 }
 
-
-/* Estilo para aumentar el tamaño de las imágenes en la sección del héroe */
 #hero .callTo-Buttons {
     width: 200px; /* Ancho deseado */
     height: 200px; /* Mantener la proporción de aspecto original */
 }
 
-
 #hero .callTo-Buttons-container {
     margin-top: 20px; 
 }
-
 
 #hero .order-lg-2{
     width: 50%;
@@ -142,7 +139,6 @@ section{
     text-transform: none;
 }
 
-/*AboutUs styles*/
 #Us .embed-responsive {
     display: flex;
     justify-content: center;
@@ -162,8 +158,6 @@ section{
 #Us .container .row ul li span::after{
     padding-left: 1rem;
 }
-/*AboutTheTeam styles*/
-
 
 #about-team .container .row .team-member img{
     width: 125px;
@@ -176,7 +170,6 @@ section{
     display: flex;
     justify-content: center;
 }
-
 
 #about-team .container .row .team-member .social-icons a{
     width: 34px;
@@ -206,31 +199,27 @@ section{
    
 }
 
-
 .team-member {
     background-color: white;
     width: 180px;
     margin: 100px;
-
 }
-
-
 
 #Us iframe {
 
 }
 
-/*Services styles*/
-
 #services .row {
     margin-top: 0rem;
 }
+
 #services .container{
     width: 100%;
     display:flex;
     align-items:center;
     justify-content:space-around;
 }
+
 #services h5{
     text-transform: uppercase;
     size-adjust: auto;
@@ -324,10 +313,6 @@ section{
 
 }
 
-
-/*Pricing styles*/
-
-
 #pricing .container{
     margin-top: 1rem;
 }
@@ -350,8 +335,6 @@ section{
     overflow: hidden;
 }
 
-/*Contact Styles*/
-/*TODO: Implement contact styles*/
 #contact-Us .container{
     padding-top: 5rem;
 }
@@ -368,7 +351,6 @@ section{
     color: var(--body);/*si se altera esta linea, se altera la linea 372,379,387*/
 }
 
-/*Footer styles*/
 #footer{
     padding-top: 5rem;
 }
@@ -402,30 +384,30 @@ section{
     padding-left: 1rem;
 }
  #footer .text-color {
-    color: #333764; /* Color del texto para las secciones del footer */
+    color: #333764;
   }
 
   #footer .list-unstyled a,
   #footer .social-icons a {
-    color: #333764; /* Color de los enlaces dentro del footer */
+    color: #333764;
   }
   .footer-top .logo-foot {
-    max-width: 100%; /* Asegura que la imagen se ajuste dentro del contenedor */
+    max-width: 100%;
   }
   #footer .text-color {
-    color: #333764; /* Color del texto para las secciones del footer */
+    color: #333764;
   }
 
   #footer .list-unstyled a,
   #footer .social-icons a {
-    color: rgb(51, 55, 100); /* Color de los enlaces dentro del footer */
+    color: rgb(51, 55, 100);
   }
 .footer-icons{
     color: #333647;
 }
 
   .footer-top .logo-foot {
-    max-width: 100%; /* Asegura que la imagen se ajuste dentro del contenedor */
+    max-width: 100%;
   }
   .icons-container{
     display: flex;
@@ -451,6 +433,6 @@ section{
       margin-bottom: 20px;
     }
     .footer-top img {
-      width: 200px; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+      width: 200px;
     }
   }
